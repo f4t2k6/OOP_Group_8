@@ -1,8 +1,8 @@
 namespace OOP_project
 {
-    public partial class Form1 : Form
+    public partial class Gameplay : Form
     {
-        public Form1()
+        public Gameplay()
         {
             InitializeComponent();
         }
@@ -18,6 +18,11 @@ namespace OOP_project
         }
 
         private void HPhuman_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
