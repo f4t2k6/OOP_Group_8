@@ -37,5 +37,13 @@ namespace OOP_project
             CurrentHP = MaxHP;
         }
 
+        public void TakeDamage(int damage)
+        {
+            currentHP-=damage;
+            if (CurrentHP < 0)
+            {
+                CurrentHP = 0;
+            }
+        }
     }
 }
