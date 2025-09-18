@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OOP_project.Properties {
+namespace ManChoi.Properties {
     using System;
     
     

@@ -1,4 +1,5 @@
-namespace OOP_project
+using System;
+namespace ManChoi
 {
     public partial class Gameplay : Form
     {
@@ -11,7 +12,6 @@ namespace OOP_project
         private int countX2dameitem = 0;
         private void Gameplay_Load(object sender, EventArgs e)
         {
-
             human.currentHP = human.maxHP;
             bot.currentHP = bot.maxHP;
             HPhuman.Maximum = human.maxHP;

@@ -1,4 +1,4 @@
-﻿namespace OOP_project
+﻿namespace ManChoi
 {
     partial class Gameplay
     {

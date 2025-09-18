@@ -1,6 +1,6 @@
-using oop_group8;
+using ManHinhChinh;
 
-namespace OOP_project
+namespace ManChoi
 {
     internal static class Program
     {
