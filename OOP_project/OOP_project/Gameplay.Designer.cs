@@ -64,7 +64,6 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Image = Properties.Resources.palkia;
             pictureBox2.Location = new Point(218, 240);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(249, 273);
@@ -76,7 +75,6 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Image = Properties.Resources.dragon;
             pictureBox3.Location = new Point(707, 220);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(305, 311);

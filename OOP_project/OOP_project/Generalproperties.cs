@@ -11,6 +11,7 @@ namespace ManChoi
     {
         //fields
         protected string name;
+        protected string type;
         protected int attack;
         protected int defense;
         protected int maxHP;
@@ -18,95 +19,89 @@ namespace ManChoi
 
         //properties
         public string Name { get { return name; } set { name = value; } }
+        public string Type { get { return type; } set { type = value; } }
         public int Attack { get { return attack; } set { attack = value; } }
         public int Defense { get { return defense; } set { defense = value; } }
         public int MaxHP { get { return maxHP; } set { maxHP = value; } }
         public int CurrentHP { get { return currentHP; } set { currentHP = value; } }
 
         //constructor
-        public Character(string _name, int _attack, int _defense, int _maxhp)
+        public Character(string _name, string _type, int _attack, int _defense, int _maxhp)
         {
             name = _name;
+            type = _type;
             attack = _attack;
             defense = _defense;
             maxHP = _maxhp;
+            currentHP = maxHP;
         }
 
         //method
         public virtual void CauseDMG(Character enemy)
         {
-            int dmg = Attack - enemy.Defense;
-            if (dmg < 0)    dmg = 0;
+            int dmg = this.Attack - enemy.Defense;
+            if (dmg < 0) dmg = 0;
             enemy.TakeDMG(dmg);
         }
 
         public void TakeDMG(int dmg)
         {
-            CurrentHP -= dmg;
-            if(CurrentHP < 0) CurrentHP = 0;
+            this.CurrentHP -= dmg;
+            if (CurrentHP < 0) CurrentHP = 0;
         }
 
         public void Def()
         {
-            this.Defense += (this.Defense * 10) / 100;      //tăng chỉ số phòng thủ thêm 10%
+            this.Defense += (this.Defense * 20) / 100;      //tăng chỉ số phòng thủ thêm 20%
         }
     }
-    //Phân ra các Hệ
-    public class Fire : Character
+
+    public class Effect
     {
-        protected int Burn = 5;
+        //properties
+        public string EffectName { get; set; }
+        public int Duration { get; set; }
+        public int EffectDMG { get; set; }
+        public int Tick { get; set; }
+        public DateTime StartTime { get; set; }
+
         //constructor
-        public Fire(string name, int attack, int defense, int maxhp) : base(name, attack, defense, maxhp)
+        public Effect(string effectName, int duration, int effectdmg, int tick)
         {
-        }
-   
-        public void FireAttack(Character enemy)
-        {
-            int dmg = this.Attack + 10 - enemy.Defense;
-        }
-
-    }
-
-    /*public class Generalproperties
-    {
-        protected string Name;
-        protected int MaxHP;
-        protected int CurrentHP;
-
-        public string name
-        {
-            get { return Name; }
-            set { Name = value; }
+            EffectName = effectName;
+            Duration = duration;
+            EffectDMG = effectdmg;
+            Tick = tick;
         }
 
-        public int maxHP
+        //method
+        public void FireEffect(Effect effect, Character enemy)
         {
-            get { return MaxHP; }
-            set { MaxHP = value; }
-        }
-
-        public int currentHP
-        {
-            get { return CurrentHP; }
-            set { CurrentHP = value; }
-        }
-
-        public Generalproperties(string _Name, int _MaxHP)
-        {
-            Name = _Name;
-            MaxHP = _MaxHP;
-            CurrentHP = MaxHP;
-        }
-
-        public void TakeDamage(int damage)
-        {
-            currentHP-=damage;
-            if (CurrentHP < 0)
+            effect.StartTime = DateTime.Now;
+            DateTime lastTime = StartTime;
+            while ((DateTime.Now - StartTime).TotalSeconds < Duration + 1)       //kiểm tra thời gian khả dụng hiệu ứng
             {
-                CurrentHP = 0;
+                if ((DateTime.Now - lastTime).TotalSeconds >= Tick)      //nếu lớn hơn tick, kích hoạt hiệu ứng
+                {
+                    enemy.CurrentHP -= EffectDMG;
+                    Console.WriteLine("Current HP: " + enemy.CurrentHP);
+                    lastTime = DateTime.Now;
+                }
             }
         }
     }
-    */
 
+    //---------------------------------------------------------------------------------------------
+    //Phân ra các Hệ
+
+    public class Pro
+    {
+        static void Main(string[] args)
+        {
+            Character a = new Character("Pikachu", "Electro", 20, 10, 1000);
+            Effect burn = new Effect("Burn", 8, 5, 3);
+            Console.WriteLine(a.Name + " , " + a.CurrentHP);
+            burn.FireEffect(burn, a);
+        }
+    }
 }
