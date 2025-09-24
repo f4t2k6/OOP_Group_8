@@ -7,10 +7,10 @@ namespace ManChoi
         {
             InitializeComponent();
         }
-     
+
         private void Gameplay_Load(object sender, EventArgs e)
         {
-           
+
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -30,7 +30,7 @@ namespace ManChoi
 
         private void Fusion_Bolt_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -40,12 +40,17 @@ namespace ManChoi
 
         private void Thunder_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void bot_name_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
