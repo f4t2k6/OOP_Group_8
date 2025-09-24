@@ -32,16 +32,16 @@
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
-            Spacial_Rend = new Button();
-            Hydro_Pump = new Button();
+            Fusion_Bolt = new Button();
+            Thunder = new Button();
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
             HPBot = new ProgressBar();
             HPhuman = new ProgressBar();
-            label1 = new Label();
-            label2 = new Label();
+            human_name = new Label();
+            bot_name = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -64,6 +64,7 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox2.Image = OOP_project.Properties.Resources.zekrom;
             pictureBox2.Location = new Point(218, 240);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(249, 273);
@@ -75,6 +76,7 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
+            pictureBox3.Image = OOP_project.Properties.Resources.dragon;
             pictureBox3.Location = new Point(707, 220);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(305, 311);
@@ -82,25 +84,25 @@
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
             // 
-            // Spacial_Rend
+            // Fusion_Bolt
             // 
-            Spacial_Rend.Location = new Point(151, 87);
-            Spacial_Rend.Name = "Spacial_Rend";
-            Spacial_Rend.Size = new Size(73, 48);
-            Spacial_Rend.TabIndex = 3;
-            Spacial_Rend.Text = "Spacial Rend";
-            Spacial_Rend.UseVisualStyleBackColor = true;
-            Spacial_Rend.Click += Spacial_Rend_Click;
+            Fusion_Bolt.Location = new Point(151, 87);
+            Fusion_Bolt.Name = "Fusion_Bolt";
+            Fusion_Bolt.Size = new Size(73, 48);
+            Fusion_Bolt.TabIndex = 3;
+            Fusion_Bolt.Text = "Fusion Bolt";
+            Fusion_Bolt.UseVisualStyleBackColor = true;
+            Fusion_Bolt.Click += Fusion_Bolt_Click;
             // 
-            // Hydro_Pump
+            // Thunder
             // 
-            Hydro_Pump.Location = new Point(151, 151);
-            Hydro_Pump.Name = "Hydro_Pump";
-            Hydro_Pump.Size = new Size(73, 48);
-            Hydro_Pump.TabIndex = 4;
-            Hydro_Pump.Text = "Hydro Pump";
-            Hydro_Pump.UseVisualStyleBackColor = true;
-            Hydro_Pump.Click += Hydro_Pump_Click;
+            Thunder.Location = new Point(151, 151);
+            Thunder.Name = "Thunder";
+            Thunder.Size = new Size(73, 48);
+            Thunder.TabIndex = 4;
+            Thunder.Text = "Thunder";
+            Thunder.UseVisualStyleBackColor = true;
+            Thunder.Click += Thunder_Click;
             // 
             // button3
             // 
@@ -157,26 +159,26 @@
             HPhuman.Value = 100;
             HPhuman.Click += HPhuman_Click;
             // 
-            // label1
+            // human_name
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(267, 28);
-            label1.Name = "label1";
-            label1.Size = new Size(47, 20);
-            label1.TabIndex = 11;
-            label1.Text = "Palkia";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click;
+            human_name.AutoSize = true;
+            human_name.Location = new Point(267, 28);
+            human_name.Name = "human_name";
+            human_name.Size = new Size(60, 20);
+            human_name.TabIndex = 11;
+            human_name.Text = "Zekrom";
+            human_name.TextAlign = ContentAlignment.MiddleCenter;
+            human_name.Click += label1_Click;
             // 
-            // label2
+            // bot_name
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(863, 28);
-            label2.Name = "label2";
-            label2.Size = new Size(72, 20);
-            label2.TabIndex = 12;
-            label2.Text = "Charizard";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
+            bot_name.AutoSize = true;
+            bot_name.Location = new Point(863, 28);
+            bot_name.Name = "bot_name";
+            bot_name.Size = new Size(72, 20);
+            bot_name.TabIndex = 12;
+            bot_name.Text = "Charizard";
+            bot_name.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Gameplay
             // 
@@ -185,16 +187,16 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(1280, 558);
-            Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(bot_name);
+            Controls.Add(human_name);
             Controls.Add(HPhuman);
             Controls.Add(HPBot);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
-            Controls.Add(Hydro_Pump);
-            Controls.Add(Spacial_Rend);
+            Controls.Add(Thunder);
+            Controls.Add(Fusion_Bolt);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
@@ -213,15 +215,15 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private Button Spacial_Rend;
-        private Button Hydro_Pump;
+        private Button Fusion_Bolt;
+        private Button Thunder;
         private Button button3;
         private Button button4;
         private Button button5;
         private Button button6;
         private ProgressBar HPBot;
         private ProgressBar HPhuman;
-        private Label label1;
-        private Label label2;
+        private Label human_name;
+        private Label bot_name;
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ManChoi.Properties {
+namespace OOP_project.Properties {
     using System;
     
     
@@ -116,6 +116,16 @@ namespace ManChoi.Properties {
         internal static System.Drawing.Bitmap pikachu {
             get {
                 object obj = ResourceManager.GetObject("pikachu", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zekrom {
+            get {
+                object obj = ResourceManager.GetObject("zekrom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -104,4 +104,62 @@ namespace ManChoi
             burn.FireEffect(burn, a);
         }
     }
+
+    //---------------------------------------------------------------------------------------------
+    //Tấn công hệ lửa 
+    public class Fire : Character
+    {
+        public Fire(string _name, string _type, int _attack, int _defense, int _maxhp) : base(_name, _type, _attack, _defense, _maxhp)
+        {
+        }
+
+        public void FireAttack(Character enemy)
+        {
+            Random rand= new Random();
+            int tile=rand.Next(1, 3);
+            if (tile == 1)
+            {
+                int dmg = this.Attack + 20 - enemy.Defense;
+                Effect burn = new Effect("Burn", 10, 5, 1);
+                burn.FireEffect(burn, enemy);
+                enemy.TakeDMG(dmg);
+            }
+
+            else
+            {
+                int dmg = this.Attack + 20 - enemy.Defense;
+                enemy.TakeDMG(dmg);
+            }
+
+        }
+    }
+
+    //----------------------------------------------------------------------------------------------
+    //Tấn công hệ điện 
+
+    public class Electric : Character
+    {
+        protected int ReducedDefense = 40;
+        public Electric(string _name, string _type, int _attack, int _defense, int _maxhp) : base(_name,_type,_attack,_defense,_maxhp)
+        {
+        }
+
+        public void ElectricAttack(Character enemy)
+        {
+            Random rand = new Random();
+            int tile = rand.Next(4, 6);
+            if (tile == 4)
+            {
+                int dmg = this.Attack + 20 - enemy.Defense + ReducedDefense;
+                enemy.TakeDMG(dmg);
+            }
+
+            else
+            {
+                int dmg = this.Attack + 20 - enemy.Defense;
+                enemy.TakeDMG(dmg);
+            }
+        }
+    }
+
 }
