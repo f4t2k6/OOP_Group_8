@@ -64,7 +64,7 @@
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Image = OOP_project.Properties.Resources.zekrom;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
             pictureBox2.Location = new Point(218, 240);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(249, 273);
@@ -76,13 +76,14 @@
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
             pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Image = OOP_project.Properties.Resources.dragon;
+            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.Location = new Point(707, 220);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(305, 311);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 2;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // Fusion_Bolt
             // 
@@ -179,6 +180,7 @@
             bot_name.TabIndex = 12;
             bot_name.Text = "Charizard";
             bot_name.TextAlign = ContentAlignment.MiddleCenter;
+            bot_name.Click += bot_name_Click;
             // 
             // Gameplay
             // 

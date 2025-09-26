@@ -73,39 +73,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap character {
+        internal static System.Drawing.Bitmap charizard {
             get {
-                object obj = ResourceManager.GetObject("character", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap doryuzu {
-            get {
-                object obj = ResourceManager.GetObject("doryuzu", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap dragon {
-            get {
-                object obj = ResourceManager.GetObject("dragon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap palkia {
-            get {
-                object obj = ResourceManager.GetObject("palkia", resourceCulture);
+                object obj = ResourceManager.GetObject("charizard", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,16 +86,6 @@ namespace OOP_project.Properties {
         internal static System.Drawing.Bitmap pikachu {
             get {
                 object obj = ResourceManager.GetObject("pikachu", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap zekrom {
-            get {
-                object obj = ResourceManager.GetObject("zekrom", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

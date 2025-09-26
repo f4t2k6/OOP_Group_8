@@ -13,9 +13,13 @@ Hệ Lửa:
 =================================================================================================
  NOTE:
 - Add thêm các operator overloading
+- Add thêm thanh mana
+=================================================================================================
+Skill:
+- Mỗi pokemon sẽ có 3 chiêu: đánh thường, đánh đặc biệt, phòng thủ (đánh đặc biệt và phòng thủ tốn mana)
 */
 
-namespace Gameplay
+namespace Gameplayscreen 
 {
     public class Character
     {
