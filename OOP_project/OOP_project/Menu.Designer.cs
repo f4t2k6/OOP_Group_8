@@ -1,4 +1,4 @@
-﻿namespace ManHinhChinh
+﻿namespace MenuScreen
 {
     partial class Menu
     {
@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -47,7 +46,7 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.UseWaitCursor = true;
-            pictureBox1.Click += Pic_TenGame;
+            pictureBox1.Click += Menu_Name;
             // 
             // button1
             // 
@@ -60,17 +59,7 @@
             button1.TabIndex = 1;
             button1.Text = "Play";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += Button_Play;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(540, 584);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 2;
-            label1.Text = "label1";
-            label1.Click += label1_Click;
+            button1.Click += Menu_PlayButton;
             // 
             // Menu
             // 
@@ -79,21 +68,18 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
-            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Menu";
             Text = "Group 8 Project";
-            Load += Form1_Load;
+            Load += Menu_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private PictureBox pictureBox1;
         private Button button1;
-        private Label label1;
     }
 }

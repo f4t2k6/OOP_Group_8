@@ -73,6 +73,16 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap battle_background {
+            get {
+                object obj = ResourceManager.GetObject("battle_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap charizard {
             get {
                 object obj = ResourceManager.GetObject("charizard", resourceCulture);
