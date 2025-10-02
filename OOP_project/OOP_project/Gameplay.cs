@@ -1,13 +1,28 @@
+using Gameplayscreen;
 using System;
 namespace ManChoi
 {
     public partial class Gameplay : Form
     {
-        public Gameplay()
+        private Character player;
+        private Character enemy;
+        public Gameplay(Character p,Character e)
         {
             InitializeComponent();
-        }
+            player = p;
+            enemy = e;
 
+            Player_name.Text=player._name;
+            Player_HP.Maximum=player._maxhp;
+            Player_HP.Value=player._maxhp;
+            Pic_Player.Image = player.avatar;
+
+            Enemy_name.Text =enemy._name;
+            Enemy_HP.Maximum=enemy._maxhp;
+            Enemy_HP.Value=enemy._maxhp;
+            Pic_Enemy.Image =enemy.avatar;
+        }
+    
         private void Gameplay_Load(object sender, EventArgs e)
         {
 
@@ -54,6 +69,11 @@ namespace ManChoi
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
         {
 
         }

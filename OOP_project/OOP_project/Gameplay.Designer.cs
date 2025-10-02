@@ -30,21 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gameplay));
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
-            pictureBox3 = new PictureBox();
-            Fusion_Bolt = new Button();
-            Thunder = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            HPBot = new ProgressBar();
-            HPhuman = new ProgressBar();
-            human_name = new Label();
-            bot_name = new Label();
+            Pic_Player = new PictureBox();
+            Pic_Enemy = new PictureBox();
+            Skill1_Player = new Button();
+            Skill2_Player = new Button();
+            Item_Player = new Button();
+            Skill1_Enemy = new Button();
+            Skill2_Enemy = new Button();
+            Item_Enemy = new Button();
+            Enemy_HP = new ProgressBar();
+            Player_HP = new ProgressBar();
+            Player_name = new Label();
+            Enemy_name = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Pic_Player).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Pic_Enemy).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -53,134 +53,132 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1280, 558);
+            pictureBox1.Size = new Size(1262, 673);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // pictureBox2
+            // Pic_Player
             // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(218, 240);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(249, 273);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 1;
-            pictureBox2.TabStop = false;
+            Pic_Player.BackColor = Color.Transparent;
+            Pic_Player.BackgroundImage = (Image)resources.GetObject("Pic_Player.BackgroundImage");
+            Pic_Player.BackgroundImageLayout = ImageLayout.Stretch;
+            Pic_Player.Location = new Point(222, 288);
+            Pic_Player.Name = "Pic_Player";
+            Pic_Player.Size = new Size(294, 304);
+            Pic_Player.SizeMode = PictureBoxSizeMode.Zoom;
+            Pic_Player.TabIndex = 1;
+            Pic_Player.TabStop = false;
+            Pic_Player.Click += pictureBox2_Click;
             // 
-            // pictureBox3
+            // Pic_Enemy
             // 
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.BackgroundImageLayout = ImageLayout.Stretch;
-            pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(707, 220);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(305, 311);
-            pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox3.TabIndex = 2;
-            pictureBox3.TabStop = false;
-            pictureBox3.Click += pictureBox3_Click;
+            Pic_Enemy.BackgroundImage = (Image)resources.GetObject("Pic_Enemy.BackgroundImage");
+            Pic_Enemy.BackgroundImageLayout = ImageLayout.Stretch;
+            Pic_Enemy.Location = new Point(765, 288);
+            Pic_Enemy.Name = "Pic_Enemy";
+            Pic_Enemy.Size = new Size(302, 285);
+            Pic_Enemy.SizeMode = PictureBoxSizeMode.Zoom;
+            Pic_Enemy.TabIndex = 2;
+            Pic_Enemy.TabStop = false;
+            Pic_Enemy.Click += pictureBox3_Click;
             // 
-            // Fusion_Bolt
+            // Skill1_Player
             // 
-            Fusion_Bolt.Location = new Point(151, 87);
-            Fusion_Bolt.Name = "Fusion_Bolt";
-            Fusion_Bolt.Size = new Size(73, 48);
-            Fusion_Bolt.TabIndex = 3;
-            Fusion_Bolt.Text = "Fusion Bolt";
-            Fusion_Bolt.UseVisualStyleBackColor = true;
-            Fusion_Bolt.Click += Fusion_Bolt_Click;
+            Skill1_Player.Location = new Point(192, 598);
+            Skill1_Player.Name = "Skill1_Player";
+            Skill1_Player.Size = new Size(69, 63);
+            Skill1_Player.TabIndex = 3;
+            Skill1_Player.Text = "1";
+            Skill1_Player.UseVisualStyleBackColor = true;
+            Skill1_Player.Click += Fusion_Bolt_Click;
             // 
-            // Thunder
+            // Skill2_Player
             // 
-            Thunder.Location = new Point(151, 151);
-            Thunder.Name = "Thunder";
-            Thunder.Size = new Size(73, 48);
-            Thunder.TabIndex = 4;
-            Thunder.Text = "Thunder";
-            Thunder.UseVisualStyleBackColor = true;
-            Thunder.Click += Thunder_Click;
+            Skill2_Player.Location = new Point(303, 598);
+            Skill2_Player.Name = "Skill2_Player";
+            Skill2_Player.Size = new Size(69, 63);
+            Skill2_Player.TabIndex = 4;
+            Skill2_Player.Text = "2";
+            Skill2_Player.UseVisualStyleBackColor = true;
+            Skill2_Player.Click += Thunder_Click;
             // 
-            // button3
+            // Item_Player
             // 
-            button3.Location = new Point(267, 112);
-            button3.Name = "button3";
-            button3.Size = new Size(45, 48);
-            button3.TabIndex = 5;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
+            Item_Player.Location = new Point(455, 613);
+            Item_Player.Name = "Item_Player";
+            Item_Player.Size = new Size(45, 48);
+            Item_Player.TabIndex = 5;
+            Item_Player.UseVisualStyleBackColor = true;
+            Item_Player.Click += button3_Click;
             // 
-            // button4
+            // Skill1_Enemy
             // 
-            button4.Location = new Point(1046, 87);
-            button4.Name = "button4";
-            button4.Size = new Size(45, 48);
-            button4.TabIndex = 6;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            Skill1_Enemy.Location = new Point(916, 579);
+            Skill1_Enemy.Name = "Skill1_Enemy";
+            Skill1_Enemy.Size = new Size(69, 63);
+            Skill1_Enemy.TabIndex = 6;
+            Skill1_Enemy.Text = "2";
+            Skill1_Enemy.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // Skill2_Enemy
             // 
-            button5.Location = new Point(1046, 151);
-            button5.Name = "button5";
-            button5.Size = new Size(45, 48);
-            button5.TabIndex = 7;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            Skill2_Enemy.Location = new Point(1027, 579);
+            Skill2_Enemy.Name = "Skill2_Enemy";
+            Skill2_Enemy.Size = new Size(69, 63);
+            Skill2_Enemy.TabIndex = 7;
+            Skill2_Enemy.Text = "1";
+            Skill2_Enemy.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Item_Enemy
             // 
-            button6.Location = new Point(952, 122);
-            button6.Name = "button6";
-            button6.Size = new Size(45, 48);
-            button6.TabIndex = 8;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            Item_Enemy.Location = new Point(813, 594);
+            Item_Enemy.Name = "Item_Enemy";
+            Item_Enemy.Size = new Size(45, 48);
+            Item_Enemy.TabIndex = 8;
+            Item_Enemy.UseVisualStyleBackColor = true;
             // 
-            // HPBot
+            // Enemy_HP
             // 
-            HPBot.Location = new Point(793, 51);
-            HPBot.Name = "HPBot";
-            HPBot.Size = new Size(142, 29);
-            HPBot.TabIndex = 9;
-            HPBot.Value = 100;
-            HPBot.Click += progressBar1_Click;
+            Enemy_HP.Location = new Point(863, 51);
+            Enemy_HP.Name = "Enemy_HP";
+            Enemy_HP.Size = new Size(204, 29);
+            Enemy_HP.TabIndex = 9;
+            Enemy_HP.Value = 100;
+            Enemy_HP.Click += progressBar1_Click;
             // 
-            // HPhuman
+            // Player_HP
             // 
-            HPhuman.Location = new Point(267, 51);
-            HPhuman.Name = "HPhuman";
-            HPhuman.Size = new Size(142, 29);
-            HPhuman.TabIndex = 10;
-            HPhuman.Value = 100;
-            HPhuman.Click += HPhuman_Click;
+            Player_HP.Location = new Point(222, 51);
+            Player_HP.Name = "Player_HP";
+            Player_HP.Size = new Size(204, 29);
+            Player_HP.TabIndex = 10;
+            Player_HP.Value = 100;
+            Player_HP.Click += HPhuman_Click;
             // 
-            // human_name
+            // Player_name
             // 
-            human_name.AutoSize = true;
-            human_name.Location = new Point(267, 28);
-            human_name.Name = "human_name";
-            human_name.Size = new Size(60, 20);
-            human_name.TabIndex = 11;
-            human_name.Text = "Zekrom";
-            human_name.TextAlign = ContentAlignment.MiddleCenter;
-            human_name.Click += label1_Click;
+            Player_name.AutoSize = true;
+            Player_name.Location = new Point(268, 28);
+            Player_name.Name = "Player_name";
+            Player_name.RightToLeft = RightToLeft.No;
+            Player_name.Size = new Size(50, 20);
+            Player_name.TabIndex = 11;
+            Player_name.Text = "player";
+            Player_name.TextAlign = ContentAlignment.MiddleRight;
+            Player_name.Click += label1_Click;
             // 
-            // bot_name
+            // Enemy_name
             // 
-            bot_name.AutoSize = true;
-            bot_name.Location = new Point(863, 28);
-            bot_name.Name = "bot_name";
-            bot_name.Size = new Size(72, 20);
-            bot_name.TabIndex = 12;
-            bot_name.Text = "Charizard";
-            bot_name.TextAlign = ContentAlignment.MiddleCenter;
-            bot_name.Click += bot_name_Click;
+            Enemy_name.AutoSize = true;
+            Enemy_name.Location = new Point(973, 28);
+            Enemy_name.Name = "Enemy_name";
+            Enemy_name.Size = new Size(53, 20);
+            Enemy_name.TabIndex = 12;
+            Enemy_name.Text = "enemy";
+            Enemy_name.TextAlign = ContentAlignment.MiddleCenter;
+            Enemy_name.Click += bot_name_Click;
             // 
             // Gameplay
             // 
@@ -188,26 +186,29 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Zoom;
-            ClientSize = new Size(1280, 558);
-            Controls.Add(bot_name);
-            Controls.Add(human_name);
-            Controls.Add(HPhuman);
-            Controls.Add(HPBot);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(Thunder);
-            Controls.Add(Fusion_Bolt);
-            Controls.Add(pictureBox3);
-            Controls.Add(pictureBox2);
+            ClientSize = new Size(1262, 673);
+            Controls.Add(Enemy_name);
+            Controls.Add(Player_name);
+            Controls.Add(Player_HP);
+            Controls.Add(Enemy_HP);
+            Controls.Add(Item_Enemy);
+            Controls.Add(Skill2_Enemy);
+            Controls.Add(Skill1_Enemy);
+            Controls.Add(Item_Player);
+            Controls.Add(Skill2_Player);
+            Controls.Add(Skill1_Player);
+            Controls.Add(Pic_Enemy);
+            Controls.Add(Pic_Player);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Gameplay";
             Text = "gameplay";
             Load += Gameplay_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Pic_Player).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Pic_Enemy).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -215,17 +216,17 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
-        private PictureBox pictureBox3;
-        private Button Fusion_Bolt;
-        private Button Thunder;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private ProgressBar HPBot;
-        private ProgressBar HPhuman;
-        private Label human_name;
-        private Label bot_name;
+        private PictureBox Pic_Player;
+        private PictureBox Pic_Enemy;
+        private Button Skill1_Player;
+        private Button Skill2_Player;
+        private Button Item_Player;
+        private Button Skill1_Enemy;
+        private Button Skill2_Enemy;
+        private Button Item_Enemy;
+        private ProgressBar Enemy_HP;
+        private ProgressBar Player_HP;
+        private Label Player_name;
+        private Label Enemy_name;
     }
 }

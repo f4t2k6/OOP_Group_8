@@ -82,6 +82,9 @@
             Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Menu";
             Text = "Group 8 Project";
             Load += Form1_Load;

@@ -1,4 +1,5 @@
 ﻿using ManChoi;
+using OOP_project;
 using System;
 
 namespace ManHinhChinh
@@ -26,8 +27,8 @@ namespace ManHinhChinh
         //Nút Play
         private void Button_Play(object sender, EventArgs e)
         {
-            Gameplay gameplay = new Gameplay();
-            gameplay.Show();
+            SelectCharacter select = new SelectCharacter();
+            select.Show();
             this.Hide();
         }
 
