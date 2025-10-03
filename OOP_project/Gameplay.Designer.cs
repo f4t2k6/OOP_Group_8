@@ -177,18 +177,20 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = OOP_project.Properties.Resources.Thiết_kế_chưa_có_tên;
-            pictureBox1.Location = new Point(412, 421);
+            pictureBox1.Image = OOP_project.Properties.Resources.Khung;
+            pictureBox1.Location = new Point(414, 303);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(426, 240);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Gameplay
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = OOP_project.Properties.Resources.battle_background;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(1262, 673);
             Controls.Add(pictureBox1);
@@ -204,6 +206,7 @@
             Controls.Add(player1_specialattack);
             Controls.Add(player2_character);
             Controls.Add(player1_character);
+            Cursor = Cursors.No;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Gameplay";
             Text = "gameplay";

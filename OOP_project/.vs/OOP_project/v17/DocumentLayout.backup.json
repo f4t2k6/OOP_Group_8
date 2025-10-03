@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\",
+  "WorkspaceRootPath": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1 25-26\\oop_group_8\\oop_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\oop_project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:oop_project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1 25-26\\oop_group_8\\oop_project\\player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1 25-26\\oop_group_8\\oop_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1 25-26\\oop_group_8\\oop_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1 25-26\\oop_group_8\\oop_project\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,62 +47,77 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Player2_SelectCharacter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
-              "RelativeDocumentMoniker": "Player2_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs [Design]",
-              "RelativeToolTip": "Player2_SelectCharacter.cs [Design]",
+              "Title": "Player1_SelectCharacter.cs [Design]",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
+              "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs [Design]",
+              "RelativeToolTip": "Player1_SelectCharacter.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T06:58:45.226Z",
+              "WhenOpened": "2025-10-03T07:54:32.059Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Player1_SelectCharacter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
-              "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs [Design]",
-              "RelativeToolTip": "Player1_SelectCharacter.cs [Design]",
+              "Title": "Player1_SelectCharacter.Designer.cs",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
+              "RelativeDocumentMoniker": "Player1_SelectCharacter.Designer.cs",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
+              "RelativeToolTip": "Player1_SelectCharacter.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T06:58:43.276Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-03T07:54:07.137Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T06:58:41.612Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Resources.resx",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Properties\\Resources.resx",
-              "RelativeDocumentMoniker": "Properties\\Resources.resx",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Properties\\Resources.resx",
-              "RelativeToolTip": "Properties\\Resources.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-10-03T06:57:55.236Z",
+              "WhenOpened": "2025-10-03T07:51:07.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "OOP_project",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\OOP_project.csproj",
-              "RelativeDocumentMoniker": "OOP_project.csproj",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\OOP_project.csproj",
-              "RelativeToolTip": "OOP_project.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-03T06:57:54.326Z",
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T07:49:10.487Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-03T07:06:23.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\hk1 25-26\\OOP_Group_8\\OOP_project\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T06:58:41.612Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

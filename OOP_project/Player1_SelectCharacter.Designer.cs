@@ -45,7 +45,7 @@
             // 
             // poison_core
             // 
-            poison_core.Image = OOP_project.Properties.Resources.Screenshot_2025_10_02_185443;
+            poison_core.Image = OOP_project.Properties.Resources.Type_Poison;
             poison_core.Location = new Point(152, 165);
             poison_core.Name = "poison_core";
             poison_core.Size = new Size(40, 40);
@@ -56,7 +56,7 @@
             // 
             // fire_core
             // 
-            fire_core.Image = OOP_project.Properties.Resources.Screenshot_2025_10_02_185510;
+            fire_core.Image = OOP_project.Properties.Resources.Type_Fire;
             fire_core.Location = new Point(432, 165);
             fire_core.Name = "fire_core";
             fire_core.Size = new Size(40, 40);
@@ -67,7 +67,7 @@
             // 
             // water_core
             // 
-            water_core.Image = OOP_project.Properties.Resources.Screenshot_2025_10_02_185402;
+            water_core.Image = OOP_project.Properties.Resources.Type_Water;
             water_core.Location = new Point(729, 165);
             water_core.Name = "water_core";
             water_core.Size = new Size(40, 40);
@@ -78,7 +78,7 @@
             // 
             // electric_core
             // 
-            electric_core.Image = OOP_project.Properties.Resources.Screenshot_2025_10_02_185337;
+            electric_core.Image = OOP_project.Properties.Resources.Type_Electric;
             electric_core.Location = new Point(1043, 165);
             electric_core.Name = "electric_core";
             electric_core.Size = new Size(40, 40);
@@ -90,7 +90,8 @@
             // drapion_button
             // 
             drapion_button.BackColor = Color.MediumPurple;
-            drapion_button.Image = OOP_project.Properties.Resources.drapion;
+            drapion_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Drapion_SLC;
+            drapion_button.BackgroundImageLayout = ImageLayout.Zoom;
             drapion_button.Location = new Point(98, 227);
             drapion_button.Name = "drapion_button";
             drapion_button.Size = new Size(150, 150);
@@ -101,7 +102,8 @@
             // charizard_button
             // 
             charizard_button.BackColor = Color.Firebrick;
-            charizard_button.Image = OOP_project.Properties.Resources.charizard1;
+            charizard_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Charizard_SLC;
+            charizard_button.BackgroundImageLayout = ImageLayout.Zoom;
             charizard_button.Location = new Point(375, 227);
             charizard_button.Name = "charizard_button";
             charizard_button.Size = new Size(150, 150);
@@ -112,7 +114,8 @@
             // palkia_button
             // 
             palkia_button.BackColor = Color.DarkTurquoise;
-            palkia_button.Image = OOP_project.Properties.Resources.palkia__1_;
+            palkia_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Palkia_SLC;
+            palkia_button.BackgroundImageLayout = ImageLayout.Zoom;
             palkia_button.Location = new Point(675, 227);
             palkia_button.Name = "palkia_button";
             palkia_button.RightToLeft = RightToLeft.Yes;
@@ -124,7 +127,8 @@
             // zekrom_button
             // 
             zekrom_button.BackColor = Color.Gold;
-            zekrom_button.Image = OOP_project.Properties.Resources.zekrom;
+            zekrom_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Zekrom_SLC;
+            zekrom_button.BackgroundImageLayout = ImageLayout.Zoom;
             zekrom_button.Location = new Point(985, 227);
             zekrom_button.Name = "zekrom_button";
             zekrom_button.Size = new Size(150, 150);
@@ -134,6 +138,7 @@
             // 
             // player1_title
             // 
+            player1_title.BackColor = Color.Wheat;
             player1_title.Font = new Font("Bauhaus 93", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             player1_title.Location = new Point(312, 53);
             player1_title.Name = "player1_title";

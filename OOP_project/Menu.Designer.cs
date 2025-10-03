@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             pictureBox1 = new PictureBox();
             button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -36,13 +35,13 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Location = new Point(123, -147);
+            pictureBox1.Image = OOP_project.Properties.Resources.MenuTitle;
+            pictureBox1.Location = new Point(37, -246);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1010, 708);
+            pictureBox1.Size = new Size(1185, 879);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.UseWaitCursor = true;
@@ -65,7 +64,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = SystemColors.ButtonHighlight;
+            BackgroundImage = OOP_project.Properties.Resources.MenuBackground;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
             Controls.Add(button1);
