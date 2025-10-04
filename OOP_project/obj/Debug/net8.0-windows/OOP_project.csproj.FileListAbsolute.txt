@@ -40,3 +40,24 @@ E:\hk1 25-26\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\refint\OOP_project
 E:\hk1 25-26\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.pdb
 E:\hk1 25-26\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.genruntimeconfig.cache
 E:\hk1 25-26\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\ref\OOP_project.dll
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\bin\Debug\net8.0-windows\OOP_project.exe
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\bin\Debug\net8.0-windows\OOP_project.deps.json
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\bin\Debug\net8.0-windows\OOP_project.runtimeconfig.json
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\bin\Debug\net8.0-windows\OOP_project.dll
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\bin\Debug\net8.0-windows\OOP_project.pdb
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\MenuScreen.Menu.resources
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.Properties.Resources.resources
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.csproj.GenerateResource.cache
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.AssemblyInfoInputs.cache
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.AssemblyInfo.cs
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.csproj.CoreCompileInputs.cache
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.sourcelink.json
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.dll
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\refint\OOP_project.dll
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.pdb
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\OOP_project.genruntimeconfig.cache
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\ref\OOP_project.dll
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\Player1_SelectCharacterScreen.player1_selectwindow.resources
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\Player2_SelectCharacterScreen.player2_selectwindow.resources
+C:\Users\LeFat\OneDrive\Desktop\OOP_Group_8\OOP_project\obj\Debug\net8.0-windows\GameplayScreen.Gameplay.resources

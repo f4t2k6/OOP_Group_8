@@ -1,6 +1,4 @@
 ﻿using System;
-
-using GeneralProperties;
 using Player1_SelectCharacterScreen;
 
 namespace MenuScreen
@@ -23,16 +21,11 @@ namespace MenuScreen
 
         }
         //====================ELEMENTS====================
-        private void Menu_Name(object sender, EventArgs e)
-        {
-
-        }
         private void Menu_PlayButton(object sender, EventArgs e)
         {
-            Player1_SelectCharacter player1_selectcharacterscreen = new Player1_SelectCharacter();
+            player1_selectwindow player1_selectcharacterscreen = new player1_selectwindow();
             player1_selectcharacterscreen.Show();
             this.Hide();
         }
-
     }
 }

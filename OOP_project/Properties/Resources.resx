@@ -121,29 +121,14 @@
   <data name="battle_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\battle_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BT_Charizard_Player1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\charizard (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="characterselectbackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\characterselectbackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BT_Charizard_Player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Pixel Fire Sticker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="electriccore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\electriccore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BT_Drapion_Player1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drapion_flipped.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BT_Drapion_Player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\drapion.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BT_Palkia_Player1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\palkia (3).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BT_Palkia_Player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\palkia (2).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BT_Zekrom_Player1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zekrom (1).gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="BT_Zekrom_Player2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zekrom.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="firecore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\firecore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon_Charizard_SLC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\charizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,25 +142,43 @@
   <data name="Icon_Zekrom_SLC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zekrom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Khung" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Thiết kế chưa có tên.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="MenuBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MenuTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WAR OF TURNS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menu_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menubackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Type_Electric" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-10-02 185337.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="poisoncore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poisoncore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Type_Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-10-02 185510.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="watercore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\watercore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Type_Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-10-02 185443.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="texbox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\texbox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Type_Water" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Screenshot 2025-10-02 185402.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="drapion_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drapion_p1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="drapion_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\drapion_p2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charizard_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charizard_p1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="charizard_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\charizard_p2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="palkia_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palkia_p1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="palkia_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\palkia_p2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zekrom_p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zekrom_p1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="zekrom_p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zekrom_p2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

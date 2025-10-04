@@ -73,9 +73,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Charizard_Player1 {
+        internal static System.Drawing.Bitmap characterselectbackground {
             get {
-                object obj = ResourceManager.GetObject("BT_Charizard_Player1", resourceCulture);
+                object obj = ResourceManager.GetObject("characterselectbackground", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Charizard_Player2 {
+        internal static System.Drawing.Bitmap charizard_p1 {
             get {
-                object obj = ResourceManager.GetObject("BT_Charizard_Player2", resourceCulture);
+                object obj = ResourceManager.GetObject("charizard_p1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Drapion_Player1 {
+        internal static System.Drawing.Bitmap charizard_p2 {
             get {
-                object obj = ResourceManager.GetObject("BT_Drapion_Player1", resourceCulture);
+                object obj = ResourceManager.GetObject("charizard_p2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Drapion_Player2 {
+        internal static System.Drawing.Bitmap drapion_p1 {
             get {
-                object obj = ResourceManager.GetObject("BT_Drapion_Player2", resourceCulture);
+                object obj = ResourceManager.GetObject("drapion_p1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Palkia_Player1 {
+        internal static System.Drawing.Bitmap drapion_p2 {
             get {
-                object obj = ResourceManager.GetObject("BT_Palkia_Player1", resourceCulture);
+                object obj = ResourceManager.GetObject("drapion_p2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Palkia_Player2 {
+        internal static System.Drawing.Bitmap electriccore {
             get {
-                object obj = ResourceManager.GetObject("BT_Palkia_Player2", resourceCulture);
+                object obj = ResourceManager.GetObject("electriccore", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,19 +133,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BT_Zekrom_Player1 {
+        internal static System.Drawing.Bitmap firecore {
             get {
-                object obj = ResourceManager.GetObject("BT_Zekrom_Player1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap BT_Zekrom_Player2 {
-            get {
-                object obj = ResourceManager.GetObject("BT_Zekrom_Player2", resourceCulture);
+                object obj = ResourceManager.GetObject("firecore", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -193,9 +183,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Khung {
+        internal static System.Drawing.Bitmap menu_background {
             get {
-                object obj = ResourceManager.GetObject("Khung", resourceCulture);
+                object obj = ResourceManager.GetObject("menu_background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +203,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MenuTitle {
+        internal static System.Drawing.Bitmap palkia_p1 {
             get {
-                object obj = ResourceManager.GetObject("MenuTitle", resourceCulture);
+                object obj = ResourceManager.GetObject("palkia_p1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +213,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Type_Electric {
+        internal static System.Drawing.Bitmap palkia_p2 {
             get {
-                object obj = ResourceManager.GetObject("Type_Electric", resourceCulture);
+                object obj = ResourceManager.GetObject("palkia_p2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +223,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Type_Fire {
+        internal static System.Drawing.Bitmap poisoncore {
             get {
-                object obj = ResourceManager.GetObject("Type_Fire", resourceCulture);
+                object obj = ResourceManager.GetObject("poisoncore", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +233,9 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Type_Poison {
+        internal static System.Drawing.Bitmap texbox {
             get {
-                object obj = ResourceManager.GetObject("Type_Poison", resourceCulture);
+                object obj = ResourceManager.GetObject("texbox", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +243,29 @@ namespace OOP_project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Type_Water {
+        internal static System.Drawing.Bitmap watercore {
             get {
-                object obj = ResourceManager.GetObject("Type_Water", resourceCulture);
+                object obj = ResourceManager.GetObject("watercore", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zekrom_p1 {
+            get {
+                object obj = ResourceManager.GetObject("zekrom_p1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zekrom_p2 {
+            get {
+                object obj = ResourceManager.GetObject("zekrom_p2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

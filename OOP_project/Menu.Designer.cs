@@ -28,33 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            pictureBox1 = new PictureBox();
             button1 = new Button();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBox1.Image = OOP_project.Properties.Resources.MenuTitle;
-            pictureBox1.Location = new Point(37, -246);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1185, 879);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            pictureBox1.UseWaitCursor = true;
-            pictureBox1.Click += Menu_Name;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.None;
             button1.BackColor = SystemColors.Menu;
-            button1.Font = new Font("Bahnschrift", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(424, 374);
+            button1.Font = new Font("Bauhaus 93", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(454, 468);
             button1.Name = "button1";
-            button1.Size = new Size(400, 70);
+            button1.Size = new Size(356, 101);
             button1.TabIndex = 1;
             button1.Text = "Play";
             button1.UseVisualStyleBackColor = false;
@@ -62,27 +46,22 @@
             // 
             // Menu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ButtonHighlight;
-            BackgroundImage = OOP_project.Properties.Resources.MenuBackground;
+            BackgroundImage = OOP_project.Properties.Resources.menu_background;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
             Controls.Add(button1);
-            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            MaximizeBox = false;
-            MinimizeBox = false;
             Name = "Menu";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Group 8 Project";
             Load += Menu_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-
-        private PictureBox pictureBox1;
         private Button button1;
     }
 }

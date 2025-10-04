@@ -12,16 +12,16 @@ using System.Windows.Forms;
 
 using GameplayScreen;
 using GeneralProperties;
+using Player1_SelectCharacterScreen;
+using CharacterDataFile;
 
 namespace Player2_SelectCharacterScreen
 {
-    public partial class Player2_SelectCharacter : Form
+    public partial class player2_selectwindow : Form
     {
         //====================DEFAULTS====================
-        public Player2_SelectCharacter()
+        public player2_selectwindow()
         {
-            Gameplay gp = new Gameplay();
-            gp.Player2 = new Character();
             InitializeComponent();
             this.FormClosed += Player2SelectCloseProgram;
         }
@@ -40,7 +40,39 @@ namespace Player2_SelectCharacterScreen
         {
 
         }
+        private void Player2_Choosed()
+        {
+            Gameplay gameplayscreen = new Gameplay();
+            gameplayscreen.Show();
+            this.Hide();
+        }
+        private void drapion_button_Click(object sender, EventArgs e)
+        {
+            CharacterData.Player2 = new Character("Drapion", "Poison", 70, 90, 800, 80,
+                OOP_project.Properties.Resources.drapion_p2);
+            Player2_Choosed();
+        }
 
+        private void charizard_button_Click(object sender, EventArgs e)
+        {
+            CharacterData.Player2 = new Character("Charizard", "Fire", 100, 70, 750, 120,
+                OOP_project.Properties.Resources.charizard_p2);
+            Player2_Choosed();
+        }
+
+        private void palkia_button_Click(object sender, EventArgs e)
+        {
+            CharacterData.Player2 = new Character("Palkia", "Water", 130, 110, 1000, 180,
+                OOP_project.Properties.Resources.palkia_p2);
+            Player2_Choosed();
+        }
+
+        private void zekrom_button_Click(object sender, EventArgs e)
+        {
+            CharacterData.Player2 = new Character("Zekrom", "Electric", 140, 100, 950, 170,
+                OOP_project.Properties.Resources.zekrom_p2);
+            Player2_Choosed();
+        }
         private void poison_core_Click(object sender, EventArgs e)
         {
 
@@ -61,24 +93,5 @@ namespace Player2_SelectCharacterScreen
 
         }
 
-        private void drapion_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void charizard_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void palkia_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void zekrom_button_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

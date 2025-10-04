@@ -1,4 +1,6 @@
-﻿namespace GameplayScreen
+﻿using System.Windows.Forms;
+
+namespace GameplayScreen
 {
     partial class Gameplay
     {
@@ -52,7 +54,7 @@
             player1_character.BackColor = Color.Transparent;
             player1_character.BackgroundImageLayout = ImageLayout.Stretch;
             player1_character.Image = (Image)resources.GetObject("player1_character.Image");
-            player1_character.Location = new Point(208, 206);
+            player1_character.Location = new Point(196, 221);
             player1_character.Name = "player1_character";
             player1_character.Size = new Size(250, 250);
             player1_character.SizeMode = PictureBoxSizeMode.Zoom;
@@ -66,7 +68,7 @@
             player2_character.BackgroundImageLayout = ImageLayout.Stretch;
             player2_character.Image = (Image)resources.GetObject("player2_character.Image");
             player2_character.InitialImage = null;
-            player2_character.Location = new Point(813, 206);
+            player2_character.Location = new Point(817, 221);
             player2_character.Name = "player2_character";
             player2_character.Size = new Size(250, 250);
             player2_character.SizeMode = PictureBoxSizeMode.Zoom;
@@ -177,10 +179,10 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = OOP_project.Properties.Resources.Khung;
-            pictureBox1.Location = new Point(414, 303);
+            pictureBox1.Image = OOP_project.Properties.Resources.texbox;
+            pictureBox1.Location = new Point(196, 409);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(426, 240);
+            pictureBox1.Size = new Size(871, 332);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
@@ -188,12 +190,11 @@
             // 
             // Gameplay
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackgroundImage = OOP_project.Properties.Resources.battle_background;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(1262, 673);
-            Controls.Add(pictureBox1);
             Controls.Add(player2_name);
             Controls.Add(player1_name);
             Controls.Add(player1_hp);
@@ -206,9 +207,11 @@
             Controls.Add(player1_specialattack);
             Controls.Add(player2_character);
             Controls.Add(player1_character);
-            Cursor = Cursors.No;
+            Controls.Add(pictureBox1);
+            Cursor = Cursors.Arrow;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Gameplay";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "gameplay";
             Load += Gameplay_Load;
             ((System.ComponentModel.ISupportInitialize)player1_character).EndInit();

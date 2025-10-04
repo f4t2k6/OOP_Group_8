@@ -1,6 +1,6 @@
 ﻿namespace Player1_SelectCharacterScreen
 {
-    partial class Player1_SelectCharacter
+    partial class player1_selectwindow
     {
         /// <summary>
         /// Required designer variable.
@@ -45,10 +45,10 @@
             // 
             // poison_core
             // 
-            poison_core.Image = OOP_project.Properties.Resources.Type_Poison;
-            poison_core.Location = new Point(152, 165);
+            poison_core.Image = OOP_project.Properties.Resources.poisoncore;
+            poison_core.Location = new Point(155, 245);
             poison_core.Name = "poison_core";
-            poison_core.Size = new Size(40, 40);
+            poison_core.Size = new Size(50, 50);
             poison_core.SizeMode = PictureBoxSizeMode.StretchImage;
             poison_core.TabIndex = 0;
             poison_core.TabStop = false;
@@ -56,10 +56,10 @@
             // 
             // fire_core
             // 
-            fire_core.Image = OOP_project.Properties.Resources.Type_Fire;
-            fire_core.Location = new Point(432, 165);
+            fire_core.Image = OOP_project.Properties.Resources.firecore;
+            fire_core.Location = new Point(445, 245);
             fire_core.Name = "fire_core";
-            fire_core.Size = new Size(40, 40);
+            fire_core.Size = new Size(50, 50);
             fire_core.SizeMode = PictureBoxSizeMode.StretchImage;
             fire_core.TabIndex = 1;
             fire_core.TabStop = false;
@@ -67,10 +67,10 @@
             // 
             // water_core
             // 
-            water_core.Image = OOP_project.Properties.Resources.Type_Water;
-            water_core.Location = new Point(729, 165);
+            water_core.Image = OOP_project.Properties.Resources.watercore;
+            water_core.Location = new Point(742, 245);
             water_core.Name = "water_core";
-            water_core.Size = new Size(40, 40);
+            water_core.Size = new Size(50, 50);
             water_core.SizeMode = PictureBoxSizeMode.StretchImage;
             water_core.TabIndex = 2;
             water_core.TabStop = false;
@@ -78,10 +78,10 @@
             // 
             // electric_core
             // 
-            electric_core.Image = OOP_project.Properties.Resources.Type_Electric;
-            electric_core.Location = new Point(1043, 165);
+            electric_core.Image = OOP_project.Properties.Resources.electriccore;
+            electric_core.Location = new Point(1041, 245);
             electric_core.Name = "electric_core";
-            electric_core.Size = new Size(40, 40);
+            electric_core.Size = new Size(50, 50);
             electric_core.SizeMode = PictureBoxSizeMode.StretchImage;
             electric_core.TabIndex = 3;
             electric_core.TabStop = false;
@@ -92,7 +92,7 @@
             drapion_button.BackColor = Color.MediumPurple;
             drapion_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Drapion_SLC;
             drapion_button.BackgroundImageLayout = ImageLayout.Zoom;
-            drapion_button.Location = new Point(98, 227);
+            drapion_button.Location = new Point(103, 301);
             drapion_button.Name = "drapion_button";
             drapion_button.Size = new Size(150, 150);
             drapion_button.TabIndex = 4;
@@ -104,7 +104,7 @@
             charizard_button.BackColor = Color.Firebrick;
             charizard_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Charizard_SLC;
             charizard_button.BackgroundImageLayout = ImageLayout.Zoom;
-            charizard_button.Location = new Point(375, 227);
+            charizard_button.Location = new Point(394, 301);
             charizard_button.Name = "charizard_button";
             charizard_button.Size = new Size(150, 150);
             charizard_button.TabIndex = 5;
@@ -116,7 +116,7 @@
             palkia_button.BackColor = Color.DarkTurquoise;
             palkia_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Palkia_SLC;
             palkia_button.BackgroundImageLayout = ImageLayout.Zoom;
-            palkia_button.Location = new Point(675, 227);
+            palkia_button.Location = new Point(694, 301);
             palkia_button.Name = "palkia_button";
             palkia_button.RightToLeft = RightToLeft.Yes;
             palkia_button.Size = new Size(150, 150);
@@ -129,7 +129,7 @@
             zekrom_button.BackColor = Color.Gold;
             zekrom_button.BackgroundImage = OOP_project.Properties.Resources.Icon_Zekrom_SLC;
             zekrom_button.BackgroundImageLayout = ImageLayout.Zoom;
-            zekrom_button.Location = new Point(985, 227);
+            zekrom_button.Location = new Point(990, 301);
             zekrom_button.Name = "zekrom_button";
             zekrom_button.Size = new Size(150, 150);
             zekrom_button.TabIndex = 7;
@@ -140,7 +140,7 @@
             // 
             player1_title.BackColor = Color.Wheat;
             player1_title.Font = new Font("Bauhaus 93", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            player1_title.Location = new Point(312, 53);
+            player1_title.Location = new Point(317, 127);
             player1_title.Name = "player1_title";
             player1_title.Size = new Size(630, 66);
             player1_title.TabIndex = 8;
@@ -148,11 +148,13 @@
             player1_title.TextAlign = HorizontalAlignment.Center;
             player1_title.TextChanged += PLayer1_Notify;
             // 
-            // Player1_SelectCharacter
+            // player1_selectwindow
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
+            AutoScaleDimensions = new SizeF(120F, 120F);
+            AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = SystemColors.ActiveCaption;
+            BackgroundImage = OOP_project.Properties.Resources.characterselectbackground;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1262, 673);
             Controls.Add(player1_title);
             Controls.Add(zekrom_button);
@@ -163,7 +165,9 @@
             Controls.Add(water_core);
             Controls.Add(fire_core);
             Controls.Add(poison_core);
-            Name = "Player1_SelectCharacter";
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Name = "player1_selectwindow";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Player1_SelectCharacter";
             Load += Player1_SelectCharacter_Load;
             ((System.ComponentModel.ISupportInitialize)poison_core).EndInit();

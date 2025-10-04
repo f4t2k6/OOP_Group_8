@@ -1,12 +1,13 @@
-using System;
+using CharacterDataFile;
 using GeneralProperties;
+using OOP_project.Properties;
+using System;
 
 namespace GameplayScreen
 {
+
     public partial class Gameplay : Form
     {
-        public Character Player1 { get; set; }
-        public Character Player2 { get; set; }
         public Gameplay()
         {
             InitializeComponent();
@@ -19,7 +20,8 @@ namespace GameplayScreen
         }
         private void Gameplay_Load(object sender, EventArgs e)
         {
-
+            player1_character.Image = CharacterData.Player1.avatar;
+            player2_character.Image = CharacterData.Player2.avatar;
         }
         private void BackgroundPic(object sender, EventArgs e)
         {
@@ -53,7 +55,7 @@ namespace GameplayScreen
         //====================PLAYER 2====================
         private void Player2_Character(object sender, EventArgs e)
         {
-
+            player2_character.Image = CharacterData.Player2.avatar;
         }
         private void Player2_Name(object sender, EventArgs e)
         {
@@ -73,12 +75,10 @@ namespace GameplayScreen
         }
         private void Player2_DefBoost(object sender, EventArgs e)
         {
-
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
