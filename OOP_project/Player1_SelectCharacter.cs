@@ -13,7 +13,6 @@ using System.Windows.Forms;
 using GameplayScreen;
 using GeneralProperties;
 using Player2_SelectCharacterScreen;
-using CharacterDataFile;
 
 namespace Player1_SelectCharacterScreen
 {
@@ -48,28 +47,28 @@ namespace Player1_SelectCharacterScreen
         }
         private void drapion_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player1 = new Character("Drapion", "Poison",70, 90, 800, 80,
+            CharacterData.Player1 = new Character("Drapion", "Poison", 85, 80, 800, 90,
                 OOP_project.Properties.Resources.drapion_p1);
             Player1_Choosed();
         }
 
         private void charizard_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player1 = new Character("Charizard", "Fire", 100, 70, 750, 120,
+            CharacterData.Player1 = new Character("Charizard", "Fire", 110, 60, 750, 120,
                 OOP_project.Properties.Resources.charizard_p1);
             Player1_Choosed();
         }
 
         private void palkia_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player1 = new Character("Palkia", "Water", 130, 110, 1000, 180,
+            CharacterData.Player1 = new Character("Palkia", "Water", 120, 75, 1000, 160,
                 OOP_project.Properties.Resources.palkia_p1);
             Player1_Choosed();
         }
 
         private void zekrom_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player1 = new Character("Zekrom", "Electric", 140, 100, 950, 170,
+            CharacterData.Player1 = new Character("Zekrom", "Electric", 130, 70, 950, 140,
                 OOP_project.Properties.Resources.zekrom_p1);
             Player1_Choosed();
         }

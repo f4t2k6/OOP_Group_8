@@ -1,31 +1,13 @@
 ﻿using System;
-
-/*
-Các chiêu thức chung:
-- CauseDMG: Atk - enemy Def
-- TakeDMG: nhận sát thương, trừ vào CurrentHP
-- BoostDef: dành ra 1 lượt để tăng Def thêm 40% cho lần sát thương kế tiếp
-
-=================================================================================================
-Hệ Lửa:
-- Special Attack gắn hiệu ứng Burn với 5 ticks, mỗi tick gây dmg theo BurnDMG (bỏ qua enemy Def)
-
-=================================================================================================
- NOTE:
-- Add thêm các operator overloading
-- Add thêm thanh mana
-=================================================================================================
-Skill:
-- Mỗi pokemon sẽ có 3 chiêu: đánh thường, đánh đặc biệt, phòng thủ (đánh đặc biệt và phòng thủ tốn mana)
-=================================================================================================
-Quy tắc đặt tên 
- - Fields: Abcd
- - Properties: _abcd
- - Constructors: abcd_
-*/
+using GameplayScreen;
 
 namespace GeneralProperties
 {
+    public static class CharacterData
+    {
+        public static Character Player1 { get; set; }
+        public static Character Player2 { get; set; }
+    }
     public class Character
     {
         //fields
@@ -51,14 +33,14 @@ namespace GeneralProperties
         public int _currenthp { get { return this.CurrentHP; } set { this.CurrentHP = value; } }
         public int _maxmana { get { return this.MaxMana; } set { this.MaxMana = value; } }
         public int _currentmana { get { return this.CurrentMana; } set { this.CurrentMana = value; } }
-        public Image avatar { get { return this.Avatar; } set { this.Avatar = value; } }
-
+        public Image _avatar { get { return this.Avatar; } set { this.Avatar = value; } }
 
         //constructors
         public Character()
         {
+
         }
-        public Character(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, Image avatar)
+        public Character(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, Image avatar_)
         {
             this.Name = name_;
             this.Type = type_;
@@ -66,10 +48,10 @@ namespace GeneralProperties
             this.Def = def_;
             this.MaxHP = maxhp_;
             this.MaxMana = maxmana_;
-            this.avatar = avatar;
+            this.Avatar = avatar_;
             this.CurrentHP = this.MaxHP;        //gán máu ban đầu = máu tối đa
             this.OgDef = this.Def;              //gán def để reset = def ban đầu
-            this.CurrentMana = 15;              //phải gán mana là chỉ số cố định từ đầu max chỉ là tham số không thể vượt qua 
+            this.CurrentMana = MaxMana;         //phải gán mana là chỉ số cố định từ đầu max chỉ là tham số không thể vượt qua 
         }
 
         //methods
@@ -105,7 +87,7 @@ namespace GeneralProperties
             int dmg = this.Atk - enemy.Def;
             if (dmg < 0) dmg = 0;
             enemy.TakeDMG(dmg);
-            _currentmana += 15;
+            this.CurrentMana += 15;
         }
         public virtual void SpecialAttack(Character enemy)
         {
@@ -172,3 +154,27 @@ namespace GeneralProperties
         }
     }
 }
+
+/*
+Các chiêu thức chung:
+- CauseDMG: Atk - enemy Def
+- TakeDMG: nhận sát thương, trừ vào CurrentHP
+- BoostDef: dành ra 1 lượt để tăng Def thêm 40% cho lần sát thương kế tiếp
+
+=================================================================================================
+Hệ Lửa:
+- Special Attack gắn hiệu ứng Burn với 5 ticks, mỗi tick gây dmg theo BurnDMG (bỏ qua enemy Def)
+
+=================================================================================================
+ NOTE:
+- Add thêm các operator overloading
+- Add thêm thanh mana
+=================================================================================================
+Skill:
+- Mỗi pokemon sẽ có 3 chiêu: đánh thường, đánh đặc biệt, phòng thủ (đánh đặc biệt và phòng thủ tốn mana)
+=================================================================================================
+Quy tắc đặt tên 
+ - Fields: Abcd
+ - Properties: _abcd
+ - Constructors: abcd_
+*/

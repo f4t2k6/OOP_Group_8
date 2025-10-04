@@ -43,10 +43,12 @@ namespace GameplayScreen
             player1_hp = new ProgressBar();
             player1_name = new Label();
             player2_name = new Label();
-            pictureBox1 = new PictureBox();
+            textbox = new PictureBox();
+            player1_mana = new ProgressBar();
+            player2_mana = new ProgressBar();
             ((System.ComponentModel.ISupportInitialize)player1_character).BeginInit();
             ((System.ComponentModel.ISupportInitialize)player2_character).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)textbox).BeginInit();
             SuspendLayout();
             // 
             // player1_character
@@ -78,7 +80,7 @@ namespace GameplayScreen
             // 
             // player1_specialattack
             // 
-            player1_specialattack.Location = new Point(283, 107);
+            player1_specialattack.Location = new Point(284, 129);
             player1_specialattack.Name = "player1_specialattack";
             player1_specialattack.Size = new Size(80, 50);
             player1_specialattack.TabIndex = 3;
@@ -88,7 +90,7 @@ namespace GameplayScreen
             // 
             // player1_defboost
             // 
-            player1_defboost.Location = new Point(186, 107);
+            player1_defboost.Location = new Point(187, 129);
             player1_defboost.Name = "player1_defboost";
             player1_defboost.Size = new Size(80, 50);
             player1_defboost.TabIndex = 4;
@@ -98,7 +100,7 @@ namespace GameplayScreen
             // 
             // player1_normalattack
             // 
-            player1_normalattack.Location = new Point(382, 107);
+            player1_normalattack.Location = new Point(383, 129);
             player1_normalattack.Name = "player1_normalattack";
             player1_normalattack.Size = new Size(80, 50);
             player1_normalattack.TabIndex = 5;
@@ -108,7 +110,7 @@ namespace GameplayScreen
             // 
             // player2_specialattack
             // 
-            player2_specialattack.Location = new Point(915, 107);
+            player2_specialattack.Location = new Point(916, 129);
             player2_specialattack.Name = "player2_specialattack";
             player2_specialattack.Size = new Size(80, 50);
             player2_specialattack.TabIndex = 6;
@@ -118,7 +120,7 @@ namespace GameplayScreen
             // 
             // player2_defboost
             // 
-            player2_defboost.Location = new Point(1013, 107);
+            player2_defboost.Location = new Point(1014, 129);
             player2_defboost.Name = "player2_defboost";
             player2_defboost.Size = new Size(80, 50);
             player2_defboost.TabIndex = 7;
@@ -128,7 +130,7 @@ namespace GameplayScreen
             // 
             // player2_normalattack
             // 
-            player2_normalattack.Location = new Point(817, 107);
+            player2_normalattack.Location = new Point(818, 129);
             player2_normalattack.Name = "player2_normalattack";
             player2_normalattack.Size = new Size(80, 50);
             player2_normalattack.TabIndex = 8;
@@ -176,17 +178,35 @@ namespace GameplayScreen
             player2_name.TextAlign = ContentAlignment.MiddleCenter;
             player2_name.Click += Player2_Name;
             // 
-            // pictureBox1
+            // textbox
             // 
-            pictureBox1.BackColor = Color.Transparent;
-            pictureBox1.Image = OOP_project.Properties.Resources.texbox;
-            pictureBox1.Location = new Point(196, 409);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(871, 332);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 13;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += pictureBox1_Click;
+            textbox.BackColor = Color.Transparent;
+            textbox.Image = OOP_project.Properties.Resources.texbox;
+            textbox.Location = new Point(196, 409);
+            textbox.Name = "textbox";
+            textbox.Size = new Size(871, 332);
+            textbox.SizeMode = PictureBoxSizeMode.StretchImage;
+            textbox.TabIndex = 13;
+            textbox.TabStop = false;
+            textbox.Click += TextBox;
+            // 
+            // player1_mana
+            // 
+            player1_mana.Location = new Point(212, 86);
+            player1_mana.Name = "player1_mana";
+            player1_mana.Size = new Size(250, 10);
+            player1_mana.TabIndex = 14;
+            player1_mana.Value = 100;
+            player1_mana.Click += Player1_Mana;
+            // 
+            // player2_mana
+            // 
+            player2_mana.Location = new Point(818, 86);
+            player2_mana.Name = "player2_mana";
+            player2_mana.Size = new Size(250, 10);
+            player2_mana.TabIndex = 15;
+            player2_mana.Value = 100;
+            player2_mana.Click += Player2_Mana;
             // 
             // Gameplay
             // 
@@ -195,6 +215,8 @@ namespace GameplayScreen
             BackgroundImage = OOP_project.Properties.Resources.battle_background;
             BackgroundImageLayout = ImageLayout.Center;
             ClientSize = new Size(1262, 673);
+            Controls.Add(player2_mana);
+            Controls.Add(player1_mana);
             Controls.Add(player2_name);
             Controls.Add(player1_name);
             Controls.Add(player1_hp);
@@ -207,8 +229,7 @@ namespace GameplayScreen
             Controls.Add(player1_specialattack);
             Controls.Add(player2_character);
             Controls.Add(player1_character);
-            Controls.Add(pictureBox1);
-            Cursor = Cursors.Arrow;
+            Controls.Add(textbox);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "Gameplay";
             StartPosition = FormStartPosition.CenterScreen;
@@ -216,7 +237,7 @@ namespace GameplayScreen
             Load += Gameplay_Load;
             ((System.ComponentModel.ISupportInitialize)player1_character).EndInit();
             ((System.ComponentModel.ISupportInitialize)player2_character).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)textbox).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -234,6 +255,8 @@ namespace GameplayScreen
         private ProgressBar player1_hp;
         private Label player1_name;
         private Label player2_name;
-        private PictureBox pictureBox1;
+        private PictureBox textbox;
+        private ProgressBar player1_mana;
+        private ProgressBar player2_mana;
     }
 }

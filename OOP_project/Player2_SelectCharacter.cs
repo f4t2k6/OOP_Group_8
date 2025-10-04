@@ -13,7 +13,6 @@ using System.Windows.Forms;
 using GameplayScreen;
 using GeneralProperties;
 using Player1_SelectCharacterScreen;
-using CharacterDataFile;
 
 namespace Player2_SelectCharacterScreen
 {
