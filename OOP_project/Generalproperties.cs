@@ -40,7 +40,7 @@ namespace GeneralProperties
         {
 
         }
-        public Character(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, Image avatar_)
+        public Character(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar_)
         {
             this.Name = name_;
             this.Type = type_;
@@ -51,7 +51,7 @@ namespace GeneralProperties
             this.Avatar = avatar_;
             this.CurrentHP = this.MaxHP;        //gán máu ban đầu = máu tối đa
             this.OgDef = this.Def;              //gán def để reset = def ban đầu
-            this.CurrentMana = MaxMana;         //phải gán mana là chỉ số cố định từ đầu max chỉ là tham số không thể vượt qua 
+            this.CurrentMana = statingmana_;         //phải gán mana là chỉ số cố định từ đầu max chỉ là tham số không thể vượt qua 
         }
 
         //methods
@@ -87,7 +87,7 @@ namespace GeneralProperties
             int dmg = this.Atk - enemy.Def;
             if (dmg < 0) dmg = 0;
             enemy.TakeDMG(dmg);
-            this.CurrentMana += 15;
+            this._currentmana += 15;
         }
         public virtual void SpecialAttack(Character enemy)
         {
@@ -103,7 +103,8 @@ namespace GeneralProperties
         private int BurnDmg;
 
         //constructors
-        public FireClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, Image avatar, int burndmg_) : base(name_, type_, atk_, def_, maxhp_, maxmana_, avatar)
+        public FireClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar, int burndmg_) 
+                : base(name_, type_, atk_, def_, maxhp_, maxmana_, statingmana_, avatar)
         {
             this.BurnDmg = burndmg_;
         }
@@ -112,23 +113,25 @@ namespace GeneralProperties
         public override void SpecialAttack(Character enemy)
         {
             base.SpecialAttack(enemy);
-
-            Random rand = new Random();
+            Random rand=new Random();
             int tile = rand.Next(100);
-            if (tile < 33)
+            if (tile < 66)
             {
-                enemy._currenthp -= this.BurnDmg;
-                if (enemy._currenthp < 0)
+                for (int i = 0; i < 10; i++)
                 {
-                    enemy._currenthp = 0;
+                    enemy._currenthp -= this.BurnDmg;
+                    if (enemy._currenthp < 0)
+                    {
+                        enemy._currenthp = 0;
+                    }
                 }
             }
         }
-
         public override void NormalAttack(Character enemy)
         {
             base.NormalAttack(enemy);
         }
+
     }
 
 
@@ -137,7 +140,8 @@ namespace GeneralProperties
         private int HealingHP;
 
         public int _healinghp;
-        public WaterClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, Image avatar, int healinghp_) : base(name_, type_, atk_, def_, maxhp_, maxmana_, avatar)
+        public WaterClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar, int healinghp_) 
+                   : base(name_, type_, atk_, def_, maxhp_, maxmana_, statingmana_, avatar)
         {
             this.HealingHP = healinghp_;
         }
@@ -147,9 +151,42 @@ namespace GeneralProperties
             base.SpecialAttack(enemy);
             Random rand = new Random();
             int tile = rand.Next(100);
-            if (tile < 33)
+            if (tile < 66)
             {
                 _currenthp += _healinghp;
+            }
+        }
+    }
+
+    public class PoisonClass : Character
+    {
+        private int Corrosion;
+
+        public PoisonClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar, int corrosion_)
+                   : base(name_, type_, atk_, def_, maxhp_, maxmana_, statingmana_, avatar)
+        {
+            this.Corrosion = corrosion_;
+        }
+        public override void NormalAttack(Character enemy)
+        {
+            base.NormalAttack(enemy);
+        }
+
+        public override void SpecialAttack(Character enemy)
+        {
+            base.SpecialAttack(enemy);
+            Random rand=new Random();
+            int tile = rand.Next(100);
+            if (tile < 66)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    enemy._currenthp -= Corrosion;
+                    if (enemy._currenthp < 0)
+                    {
+                        _currenthp = 0;
+                    }
+                }
             }
         }
     }

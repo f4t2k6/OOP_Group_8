@@ -47,28 +47,28 @@ namespace Player2_SelectCharacterScreen
         }
         private void drapion_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player2 = new Character("Drapion", "Poison", 70, 90, 800, 80,
+            CharacterData.Player2 = new Character("Drapion", "Poison", 70, 90, 800, 80, 15,
                 OOP_project.Properties.Resources.drapion_p2);
             Player2_Choosed();
         }
 
         private void charizard_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player2 = new Character("Charizard", "Fire", 100, 70, 750, 120,
+            CharacterData.Player2 = new Character("Charizard", "Fire", 100, 70, 750, 120, 15,
                 OOP_project.Properties.Resources.charizard_p2);
             Player2_Choosed();
         }
 
         private void palkia_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player2 = new Character("Palkia", "Water", 130, 110, 1000, 180,
+            CharacterData.Player2 = new Character("Palkia", "Water", 130, 110, 1000, 180, 15,
                 OOP_project.Properties.Resources.palkia_p2);
             Player2_Choosed();
         }
 
         private void zekrom_button_Click(object sender, EventArgs e)
         {
-            CharacterData.Player2 = new Character("Zekrom", "Electric", 140, 100, 950, 170,
+            CharacterData.Player2 = new Character("Zekrom", "Electric", 140, 100, 950, 170, 15,
                 OOP_project.Properties.Resources.zekrom_p2);
             Player2_Choosed();
         }

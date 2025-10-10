@@ -1,57 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\",
+  "WorkspaceRootPath": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player2_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\gameplay.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\generalproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\generalproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:generalproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|c:\\users\\lefat\\onedrive\\desktop\\oop_group_8\\oop_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -62,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,50 +66,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Generalproperties.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
               "RelativeDocumentMoniker": "Generalproperties.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
               "RelativeToolTip": "Generalproperties.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAwwIYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAIwLUAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:45:40.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Gameplay.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
               "RelativeDocumentMoniker": "Gameplay.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
               "RelativeToolTip": "Gameplay.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:40.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gameplay.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.Designer.cs",
-              "RelativeDocumentMoniker": "Gameplay.Designer.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.Designer.cs",
-              "RelativeToolTip": "Gameplay.Designer.cs",
-              "ViewState": "AgIAAO0AAAAAAAAAAAAYwAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:43:42.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "Gameplay.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
               "RelativeDocumentMoniker": "Gameplay.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Gameplay.cs [Design]",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs [Design]",
               "RelativeToolTip": "Gameplay.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:37.841Z",
@@ -125,117 +104,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Player2_SelectCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
               "RelativeDocumentMoniker": "Player2_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
               "RelativeToolTip": "Player2_SelectCharacter.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAlwFAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:30.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Player2_SelectCharacter.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.Designer.cs",
-              "RelativeDocumentMoniker": "Player2_SelectCharacter.Designer.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.Designer.cs",
-              "RelativeToolTip": "Player2_SelectCharacter.Designer.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:43:25.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Player2_SelectCharacter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
-              "RelativeDocumentMoniker": "Player2_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs [Design]",
-              "RelativeToolTip": "Player2_SelectCharacter.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T04:00:35.126Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Player1_SelectCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
               "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
               "RelativeToolTip": "Player1_SelectCharacter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:08.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Player1_SelectCharacter.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
-              "RelativeDocumentMoniker": "Player1_SelectCharacter.Designer.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
-              "RelativeToolTip": "Player1_SelectCharacter.Designer.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Player2_SelectCharacter.cs [Design]",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
+              "RelativeDocumentMoniker": "Player2_SelectCharacter.cs",
+              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:43:12.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T04:00:35.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Player1_SelectCharacter.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
-              "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs [Design]",
-              "RelativeToolTip": "Player1_SelectCharacter.cs [Design]",
+              "Title": "Player1_SelectCharacter.Designer.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
+              "RelativeDocumentMoniker": "Player1_SelectCharacter.Designer.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.Designer.cs",
+              "RelativeToolTip": "Player1_SelectCharacter.Designer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T04:00:19.669Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-04T11:43:12.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Menu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs [Design]",
-              "RelativeToolTip": "Menu.cs [Design]",
+              "DocumentIndex": 5,
+              "Title": "Player1_SelectCharacter.cs [Design]",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
+              "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
+              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T05:54:05.124Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-04T04:00:19.669Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
               "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs",
-              "RelativeToolTip": "Menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:42:41.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T05:54:05.124Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T11:42:41.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Menu.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.Designer.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Menu.Designer.cs",
               "RelativeDocumentMoniker": "Menu.Designer.cs",
-              "ToolTip": "C:\\Users\\LeFat\\OneDrive\\Desktop\\OOP_Group_8\\OOP_project\\Menu.Designer.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Menu.Designer.cs",
               "RelativeToolTip": "Menu.Designer.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:42:34.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-04T11:42:34.291Z"
             }
           ]
         }

@@ -182,7 +182,7 @@ namespace GameplayScreen
             // 
             textbox.BackColor = Color.Transparent;
             textbox.Image = OOP_project.Properties.Resources.texbox;
-            textbox.Location = new Point(196, 409);
+            textbox.Location = new Point(197, 421);
             textbox.Name = "textbox";
             textbox.Size = new Size(871, 332);
             textbox.SizeMode = PictureBoxSizeMode.StretchImage;
