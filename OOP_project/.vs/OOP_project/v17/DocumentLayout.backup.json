@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\generalproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:generalproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,16 +19,8 @@
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:gameplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|e:\\hk1_25-26\\oop_group_8\\oop_project\\player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|solutionrelative:player2_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E2E7E0B5-EF6B-7688-37D2-5356AF19BCFD}|OOP_project.csproj|E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\player1_selectcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -54,8 +54,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gameplay.cs",
+              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
+              "RelativeDocumentMoniker": "Gameplay.cs",
+              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
+              "RelativeToolTip": "Gameplay.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwAQAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T11:43:40.87Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -66,33 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Generalproperties.cs",
               "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
               "RelativeDocumentMoniker": "Generalproperties.cs",
               "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Generalproperties.cs",
               "RelativeToolTip": "Generalproperties.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAIwLUAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAmwMcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:45:40.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Gameplay.cs",
-              "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
-              "RelativeDocumentMoniker": "Gameplay.cs",
-              "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
-              "RelativeToolTip": "Gameplay.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T11:43:40.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Gameplay.cs [Design]",
               "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Gameplay.cs",
               "RelativeDocumentMoniker": "Gameplay.cs",
@@ -104,26 +104,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player2_SelectCharacter.cs",
               "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
               "RelativeDocumentMoniker": "Player2_SelectCharacter.cs",
               "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player2_SelectCharacter.cs",
               "RelativeToolTip": "Player2_SelectCharacter.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAlwFAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wEcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:30.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Player1_SelectCharacter.cs",
               "DocumentMoniker": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
               "RelativeDocumentMoniker": "Player1_SelectCharacter.cs",
               "ToolTip": "E:\\hk1_25-26\\OOP_Group_8\\OOP_project\\Player1_SelectCharacter.cs",
               "RelativeToolTip": "Player1_SelectCharacter.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAkwEIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAA5wEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-04T11:43:08.411Z",
               "EditorCaption": ""

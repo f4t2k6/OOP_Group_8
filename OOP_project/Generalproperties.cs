@@ -80,6 +80,7 @@ namespace GeneralProperties
                 Used_BoostDef = true;
                 this.Def += (this.Def * 40) / 100;
             }
+            this._currentmana -= 15;
         }
 
         public virtual void NormalAttack(Character enemy)
@@ -88,6 +89,10 @@ namespace GeneralProperties
             if (dmg < 0) dmg = 0;
             enemy.TakeDMG(dmg);
             this._currentmana += 15;
+            if (this._currentmana >= _maxmana)
+            {
+                _currentmana = _maxmana;
+            }
         }
         public virtual void SpecialAttack(Character enemy)
         {
@@ -138,8 +143,7 @@ namespace GeneralProperties
     public class WaterClass : Character
     {
         private int HealingHP;
-
-        public int _healinghp;
+        public int _healinghp { get; set; }
         public WaterClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar, int healinghp_) 
                    : base(name_, type_, atk_, def_, maxhp_, maxmana_, statingmana_, avatar)
         {
@@ -153,7 +157,7 @@ namespace GeneralProperties
             int tile = rand.Next(100);
             if (tile < 66)
             {
-                _currenthp += _healinghp;
+                this._currenthp += this._healinghp;
             }
         }
     }
@@ -187,6 +191,33 @@ namespace GeneralProperties
                         _currenthp = 0;
                     }
                 }
+            }
+        }
+    }
+
+    public class ElectricClass : Character
+    {
+        private bool ThunderShock;
+        
+        public bool _thundershock { get; set; }
+        public ElectricClass(string name_, string type_, int atk_, int def_, int maxhp_, int maxmana_, int statingmana_, Image avatar, bool thundershock_)
+                   : base(name_, type_, atk_, def_, maxhp_, maxmana_, statingmana_, avatar)
+        {
+            this.ThunderShock = thundershock_;
+        }
+
+        public override void NormalAttack(Character enemy)
+        {
+            base.NormalAttack(enemy);
+        }
+        public override void SpecialAttack(Character enemy)
+        {
+            base.SpecialAttack(enemy);
+            Random rand=new Random ();
+            int tile = rand.Next(100);
+            if(tile < 66)
+            {
+                _thundershock=true;
             }
         }
     }
